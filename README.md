@@ -52,7 +52,9 @@ DC Migration
 
 ## Related references
 - [MCW](https://github.com/Microsoft/MCW)
-- [Azure Arc](https://docs.microsoft.com/azure/azure-arc/overview)
+- [Azure Enterprise Class Networking](https://github.com/Microsoft/MCW-Enterprise-Class-Networking)
+- [Azure Arc Overview](https://docs.microsoft.com/azure/azure-arc/overview)
+- [Azure Arc Jumpstart](https://azurearcjumpstart.io/overview/)
 - [Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview)
 
 ## Help & Support

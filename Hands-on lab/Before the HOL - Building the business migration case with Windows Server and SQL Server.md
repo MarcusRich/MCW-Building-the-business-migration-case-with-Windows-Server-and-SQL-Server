@@ -28,10 +28,10 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 <!-- TOC -->
 
 - [Building the business migration case with Windows Server and SQL Server before the hands-on lab setup guide](#building-the-business-migration-case-with-windows-server-and-sql-server-before-the-hands-on-lab-setup-guide)
-    - [Requirements](#requirements)
-    - [Before the hands-on lab](#before-the-hands-on-lab)
-        - [Task 1: Get User Id from Azure AD](#task-1-get-user-id-from-azure-ad)
-        - [Task 2: Create existing resources](#task-2-create-existing-resources)
+  - [Requirements](#requirements)
+  - [Before the hands-on lab](#before-the-hands-on-lab)
+    - [Task 1: Get User Id from Azure AD](#task-1-get-user-id-from-azure-ad)
+    - [Task 2: Create existing resources](#task-2-create-existing-resources)
 
 <!-- /TOC -->
 
@@ -49,9 +49,9 @@ Duration: 180 minutes
 
 In this task, you will retrieve the Id for your user account / login from Azure AD. This will be needed in the next task so the ARM Template deployment can use this value.
 
-1. Sign in to the [Azure Portal](https://portal.azure.com).
+1. Sign in to the <ins>[Azure Portal](https://portal.azure.com)</ins>.
 
-2. At the top of the Azure Portal, select the **Cloud Shell** icon.
+2. At the top of the Azure Portal, select the **Cloud Shell** icon >_ .
 
 3. In the **Cloud Shell**, run the following Azure CLI command. This will retrieve the Azure AD information for your login.
 
@@ -75,7 +75,7 @@ In this task, you will retrieve the Id for your user account / login from Azure 
 
 In this task, you will leverage a custom Azure Resource Manager (ARM) template to deploy the existing Azure resources and a simulated on-premises environment for Tailspin Toys.
 
-1. Open a browser using "InPrivate" or "Incognito" mode, and navigate to the ARM template: [ARM Template on GitHub](https://github.com/microsoft/MCW-Building-the-business-migration-case-with-Windows-Server-and-SQL-Server/tree/main/Hands-on%20lab/resources/deployment).
+1. Open a browser using "InPrivate" or "Incognito" mode, and navigate to the ARM template: [ARM Template on GitHub](https://github.com/microsoft/MCW-the-business-migration-case-with-Windows-Server-and-SQL-Server/tree/main/Hands-on%20lab/resources/deployment).
 
 2. Select **Deploy to Azure**. This will open a new browser tab to the Azure Portal for custom deployments.
 

@@ -12,7 +12,6 @@ Hands-on lab step-by-step
 June 2023
 </div>
 
-
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
 Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
@@ -120,17 +119,19 @@ In this exercise, you will go through the steps necessary to migrate Tailspin To
 
 7. In the **tailspin-onprem-sql-vm** virtual machine, open **Internet Explorer** then go to the following link and download the **.NET Framework 4.8 Runtime** installer. This will be needed to install the Microsoft Data Migration Assistant.
 
-    <https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer>
+> **Note**: You may not see certain downloads in IE. If that is the case then download Microsoft Edge and proceed with the lab leveraging that browser.
 
-8. Select **Run** to run the **.NET Framework 4.8 Runtime** installer once it's finished downloading and follow the prompts to install the .NET Framework.
+<https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer>
+
+1. Select **Run** to run the **.NET Framework 4.8 Runtime** installer once it's finished downloading and follow the prompts to install the .NET Framework.
 
     ![The .NET Framework 4.8 Setup wizard is shown.](images/2022-10-07-21-14-05.png ".NET Framework 4.8 Setup")
 
-9. Using **Internet Explorer**, go to the following link and download the **Microsoft Data Migration Assistant**.
+2.  Using **Internet Explorer**, go to the following link and download the **Microsoft Data Migration Assistant**.
 
     - <https://www.microsoft.com/en-us/download/details.aspx?id=53595>
 
-10. Select **Run** to run the **Microsoft Data Migration Assistant** installer once it's finished downloading and follow the prompts to install the assistant.
+3.  Select **Run** to run the **Microsoft Data Migration Assistant** installer once it's finished downloading and follow the prompts to install the assistant.
 
     ![The Microsoft Data Migration Assistant Setup wizard is shown.](images/microsoft-data-migration-assistant-setup-wizard.png "Microsoft Data Migration Assistant Setup wizard")
 
